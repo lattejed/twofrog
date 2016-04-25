@@ -1,0 +1,13 @@
+PODS:
+  - Alamofire (3.3.1)
+  - RNCryptor (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - RNCryptor (~> 4.0.0-beta)
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  RNCryptor: 59d6483908115af5c12b884db23392024e52a5fe
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0358A9EFB4C5FE16780C5C11 /* Pods_TwoFrog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C6755BC7AF454B646D83F2 /* Pods_TwoFrog.framework */; };
+		342398E71CBEA7950047B40F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342398E61CBEA7950047B40F /* AppDelegate.swift */; };
+		342398E91CBEA7950047B40F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342398E81CBEA7950047B40F /* ViewController.swift */; };
+		342398EB1CBEA7950047B40F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342398EA1CBEA7950047B40F /* Assets.xcassets */; };
+		342398EE1CBEA7950047B40F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342398EC1CBEA7950047B40F /* Main.storyboard */; };
+		342398F91CBEA7950047B40F /* TwoFrogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342398F81CBEA7950047B40F /* TwoFrogTests.swift */; };
+		342399041CBEA7950047B40F /* TwoFrogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342399031CBEA7950047B40F /* TwoFrogUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		342398F51CBEA7950047B40F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342398DB1CBEA7950047B40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 342398E21CBEA7950047B40F;
+			remoteInfo = TwoFrog;
+		};
+		342399001CBEA7950047B40F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342398DB1CBEA7950047B40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 342398E21CBEA7950047B40F;
+			remoteInfo = TwoFrog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C6755BC7AF454B646D83F2 /* Pods_TwoFrog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwoFrog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		342398E31CBEA7950047B40F /* TwoFrog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoFrog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342398E61CBEA7950047B40F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		342398E81CBEA7950047B40F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		342398EA1CBEA7950047B40F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		342398ED1CBEA7950047B40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		342398EF1CBEA7950047B40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342398F41CBEA7950047B40F /* TwoFrogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoFrogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		342398F81CBEA7950047B40F /* TwoFrogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoFrogTests.swift; sourceTree = "<group>"; };
+		342398FA1CBEA7950047B40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342398FF1CBEA7950047B40F /* TwoFrogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoFrogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		342399031CBEA7950047B40F /* TwoFrogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoFrogUITests.swift; sourceTree = "<group>"; };
+		342399051CBEA7950047B40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF22BEEF20F9A4C3466666B6 /* Pods-TwoFrog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoFrog.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwoFrog/Pods-TwoFrog.release.xcconfig"; sourceTree = "<group>"; };
+		FDADFB39D64940CA086028A0 /* Pods-TwoFrog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoFrog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwoFrog/Pods-TwoFrog.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		342398E01CBEA7950047B40F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0358A9EFB4C5FE16780C5C11 /* Pods_TwoFrog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342398F11CBEA7950047B40F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342398FC1CBEA7950047B40F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231620435A68623E63A8E33C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDADFB39D64940CA086028A0 /* Pods-TwoFrog.debug.xcconfig */,
+				CF22BEEF20F9A4C3466666B6 /* Pods-TwoFrog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		342398DA1CBEA7950047B40F = {
+			isa = PBXGroup;
+			children = (
+				342399111CBEA7F10047B40F /* Vendor */,
+				342398E51CBEA7950047B40F /* TwoFrog */,
+				342398F71CBEA7950047B40F /* TwoFrogTests */,
+				342399021CBEA7950047B40F /* TwoFrogUITests */,
+				342398E41CBEA7950047B40F /* Products */,
+				231620435A68623E63A8E33C /* Pods */,
+				A5E151C5E1A8845A1DE8B782 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		342398E41CBEA7950047B40F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				342398E31CBEA7950047B40F /* TwoFrog.app */,
+				342398F41CBEA7950047B40F /* TwoFrogTests.xctest */,
+				342398FF1CBEA7950047B40F /* TwoFrogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		342398E51CBEA7950047B40F /* TwoFrog */ = {
+			isa = PBXGroup;
+			children = (
+				342398E61CBEA7950047B40F /* AppDelegate.swift */,
+				342398E81CBEA7950047B40F /* ViewController.swift */,
+				342398EA1CBEA7950047B40F /* Assets.xcassets */,
+				342398EC1CBEA7950047B40F /* Main.storyboard */,
+				342398EF1CBEA7950047B40F /* Info.plist */,
+			);
+			path = TwoFrog;
+			sourceTree = "<group>";
+		};
+		342398F71CBEA7950047B40F /* TwoFrogTests */ = {
+			isa = PBXGroup;
+			children = (
+				342398F81CBEA7950047B40F /* TwoFrogTests.swift */,
+				342398FA1CBEA7950047B40F /* Info.plist */,
+			);
+			path = TwoFrogTests;
+			sourceTree = "<group>";
+		};
+		342399021CBEA7950047B40F /* TwoFrogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				342399031CBEA7950047B40F /* TwoFrogUITests.swift */,
+				342399051CBEA7950047B40F /* Info.plist */,
+			);
+			path = TwoFrogUITests;
+			sourceTree = "<group>";
+		};
+		342399111CBEA7F10047B40F /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		A5E151C5E1A8845A1DE8B782 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07C6755BC7AF454B646D83F2 /* Pods_TwoFrog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		342398E21CBEA7950047B40F /* TwoFrog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342399081CBEA7950047B40F /* Build configuration list for PBXNativeTarget "TwoFrog" */;
+			buildPhases = (
+				5C105C6883D004828C5C45A7 /* Check Pods Manifest.lock */,
+				342398DF1CBEA7950047B40F /* Sources */,
+				342398E01CBEA7950047B40F /* Frameworks */,
+				342398E11CBEA7950047B40F /* Resources */,
+				9B272DED98A1C803F29B6841 /* Embed Pods Frameworks */,
+				49B30C46C87992C511E9228E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoFrog;
+			productName = TwoFrog;
+			productReference = 342398E31CBEA7950047B40F /* TwoFrog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		342398F31CBEA7950047B40F /* TwoFrogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3423990B1CBEA7950047B40F /* Build configuration list for PBXNativeTarget "TwoFrogTests" */;
+			buildPhases = (
+				342398F01CBEA7950047B40F /* Sources */,
+				342398F11CBEA7950047B40F /* Frameworks */,
+				342398F21CBEA7950047B40F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342398F61CBEA7950047B40F /* PBXTargetDependency */,
+			);
+			name = TwoFrogTests;
+			productName = TwoFrogTests;
+			productReference = 342398F41CBEA7950047B40F /* TwoFrogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		342398FE1CBEA7950047B40F /* TwoFrogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3423990E1CBEA7950047B40F /* Build configuration list for PBXNativeTarget "TwoFrogUITests" */;
+			buildPhases = (
+				342398FB1CBEA7950047B40F /* Sources */,
+				342398FC1CBEA7950047B40F /* Frameworks */,
+				342398FD1CBEA7950047B40F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342399011CBEA7950047B40F /* PBXTargetDependency */,
+			);
+			name = TwoFrogUITests;
+			productName = TwoFrogUITests;
+			productReference = 342398FF1CBEA7950047B40F /* TwoFrogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		342398DB1CBEA7950047B40F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Matthew Smith";
+				TargetAttributes = {
+					342398E21CBEA7950047B40F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					342398F31CBEA7950047B40F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 342398E21CBEA7950047B40F;
+					};
+					342398FE1CBEA7950047B40F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 342398E21CBEA7950047B40F;
+					};
+				};
+			};
+			buildConfigurationList = 342398DE1CBEA7950047B40F /* Build configuration list for PBXProject "TwoFrog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 342398DA1CBEA7950047B40F;
+			productRefGroup = 342398E41CBEA7950047B40F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				342398E21CBEA7950047B40F /* TwoFrog */,
+				342398F31CBEA7950047B40F /* TwoFrogTests */,
+				342398FE1CBEA7950047B40F /* TwoFrogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		342398E11CBEA7950047B40F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342398EB1CBEA7950047B40F /* Assets.xcassets in Resources */,
+				342398EE1CBEA7950047B40F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342398F21CBEA7950047B40F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342398FD1CBEA7950047B40F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49B30C46C87992C511E9228E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwoFrog/Pods-TwoFrog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C105C6883D004828C5C45A7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B272DED98A1C803F29B6841 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwoFrog/Pods-TwoFrog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		342398DF1CBEA7950047B40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342398E91CBEA7950047B40F /* ViewController.swift in Sources */,
+				342398E71CBEA7950047B40F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342398F01CBEA7950047B40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342398F91CBEA7950047B40F /* TwoFrogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342398FB1CBEA7950047B40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342399041CBEA7950047B40F /* TwoFrogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		342398F61CBEA7950047B40F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 342398E21CBEA7950047B40F /* TwoFrog */;
+			targetProxy = 342398F51CBEA7950047B40F /* PBXContainerItemProxy */;
+		};
+		342399011CBEA7950047B40F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 342398E21CBEA7950047B40F /* TwoFrog */;
+			targetProxy = 342399001CBEA7950047B40F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		342398EC1CBEA7950047B40F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342398ED1CBEA7950047B40F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		342399061CBEA7950047B40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		342399071CBEA7950047B40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		342399091CBEA7950047B40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDADFB39D64940CA086028A0 /* Pods-TwoFrog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TwoFrog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lattejed.TwoFrog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3423990A1CBEA7950047B40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF22BEEF20F9A4C3466666B6 /* Pods-TwoFrog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TwoFrog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lattejed.TwoFrog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3423990C1CBEA7950047B40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TwoFrogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lattejed.TwoFrogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoFrog.app/Contents/MacOS/TwoFrog";
+			};
+			name = Debug;
+		};
+		3423990D1CBEA7950047B40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TwoFrogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lattejed.TwoFrogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoFrog.app/Contents/MacOS/TwoFrog";
+			};
+			name = Release;
+		};
+		3423990F1CBEA7950047B40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TwoFrogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lattejed.TwoFrogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TwoFrog;
+			};
+			name = Debug;
+		};
+		342399101CBEA7950047B40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TwoFrogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lattejed.TwoFrogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TwoFrog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		342398DE1CBEA7950047B40F /* Build configuration list for PBXProject "TwoFrog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342399061CBEA7950047B40F /* Debug */,
+				342399071CBEA7950047B40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342399081CBEA7950047B40F /* Build configuration list for PBXNativeTarget "TwoFrog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342399091CBEA7950047B40F /* Debug */,
+				3423990A1CBEA7950047B40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3423990B1CBEA7950047B40F /* Build configuration list for PBXNativeTarget "TwoFrogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3423990C1CBEA7950047B40F /* Debug */,
+				3423990D1CBEA7950047B40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3423990E1CBEA7950047B40F /* Build configuration list for PBXNativeTarget "TwoFrogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3423990F1CBEA7950047B40F /* Debug */,
+				342399101CBEA7950047B40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 342398DB1CBEA7950047B40F /* Project object */;
+}

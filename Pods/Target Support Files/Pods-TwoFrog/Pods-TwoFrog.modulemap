@@ -1,0 +1,6 @@
+framework module Pods_TwoFrog {
+  umbrella header "Pods-TwoFrog-umbrella.h"
+
+  export *
+  module * { export * }
+}
